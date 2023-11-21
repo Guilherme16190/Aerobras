@@ -10,10 +10,14 @@
     font-weight: 600 !important;
 }
 
-.card img {
-    height: 200px;
-    object-fit: cover;
-  }
+textarea {
+    resize: none;
+}
+
+.parceiro img {
+    max-width: 100%;
+    margin: 20px;
+}
 
 /*** Cores ***/
 
@@ -30,7 +34,8 @@
 .btn-primary:hover {
     color: #fff;
     background-color: #0067B1;
-    border-color: #0067B1;}
+    border-color: #0067B1;
+}
 
 a:hover {
     color: #0067B1;
@@ -41,13 +46,14 @@ a:hover {
 }
 
 .nav-link {
-    color: #0067B1; }
+    color: #0067B1;
+}
 
 .btn-primary {
     color: #fff;
     background-color: #0067B1;
     border-color: #0067B1;
-    }
+}
 
 a {
     color: #0067B1;
@@ -135,7 +141,7 @@ a {
 }
 
 @media (max-width: 991.98px) {
-    .navbar-light .navbar-nav .nav-link  {
+    .navbar-light .navbar-nav .nav-link {
         margin-right: 0;
         padding: 10px 0;
     }
@@ -206,7 +212,7 @@ a {
         position: relative;
         min-height: 450px;
     }
-    
+
     #header-carousel .carousel-item img {
         position: absolute;
         width: 100%;
@@ -225,14 +231,14 @@ a {
     background: rgba(0, 0, 0, .7);
 }
 
-.breadcrumb-item + .breadcrumb-item::before {
+.breadcrumb-item+.breadcrumb-item::before {
     color: var(--light);
 }
 
 
 /*** Facts ***/
 .fact {
-    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/carousel-bg-1.jpg);
+    background: linear-gradient(rgba(0, 0, 0, .7), rgba(0, 0, 0, .7)), url(../img/bg1.jpg);
     background-position: center center;
     background-repeat: no-repeat;
     background-size: cover;
